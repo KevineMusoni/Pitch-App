@@ -1,3 +1,11 @@
+{% extends 'base.html'%}
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+{% endblock %}
+<!-- Content block -->
+...
+
 <!DOCTYPE html>
 <html>
 
@@ -11,6 +19,9 @@
 </head>
 
 <body>
-<h1>Welcome to Pitch App!</h1>
+<!-- Content block -->
+{% block content %}
+<h1 class="title" style="text-align:center">Welcome to Pitch App!</h1>
+{% endblock%}
 </body>
 </html>
