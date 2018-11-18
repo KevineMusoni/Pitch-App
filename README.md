@@ -8,17 +8,21 @@ This is an application that will  enable users to create pitch in different cate
 github link :https://github.com/KevineMusoni/Pitch-App.git
 
 ## step-by step guide
-*  click on the news category
-*  click read more to read the full article
+*  User Login/Registration
+*  Create Pitch
+*  Post Pitch
+* View pitch posted
 ## Behavior Driven Development
 | input              | output           |
 |---------------     |---------------   |
-| click read more    | read full article|
-|choose news category| read article     |
+| Login/sign up      | Create pitch page|
 
 ## Technologies Used
-{Python3.6}
-{Flask}
+* Python3.6
+* Flask
+* HTML
+* CSS
+
 ## Support and contact details
 {Run the web page once again incase of any errors / send an email: kevinenicky@gmail.com}
 Copyright (c) {2018} **{Kevine Musoni}**
