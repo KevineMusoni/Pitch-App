@@ -29,6 +29,7 @@ pip3 install -r requirements.txt
 * Flask
 * HTML
 * CSS
+* Bootstrap
 
 ## Support and contact details
 {Run the web page once again incase of any errors / send an email: kevinenicky@gmail.com}
