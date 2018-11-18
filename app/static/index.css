@@ -1,0 +1,54 @@
+@import
+url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+@import
+url("https://fonts.googleapis.com/css?family=Economica:300,400,700,900");
+.heading{
+    text-align: center;
+    margin-top: 45px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    font-family:'Raleway',san-serif;
+}
+p{
+    font-size: 40px;
+    margin-top: 30px;
+    font-family:'Economica',san-serif;
+}
+body{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    opacity: 0.8;
+    color:white;
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    width: 100vw;
+    margin-top: 45px;
+    height: 60px;
+    text-align: center;
+
+}
+.button{
+display: inline-block;
+font-size: 18px;
+text-decoration:none;
+text-transform: uppercase;
+border-width: 2px;
+border-style: solid;
+padding: .5em 1.75em;
+margin-left: 580px;
+margin-top: 200px;
+}
+.button-accent{
+color: white;
+border-color: white;
+}
+.button-accent:hover,
+.button-accent:focus{
+background:gray;
+color: white;
+}
