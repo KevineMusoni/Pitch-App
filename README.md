@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 * Bootstrap
 
 ## Support and contact details
-{Run the web page once again incase of any errors
-Any suggestions?
+{Run the web page once again incase of any errors,
+suggestions
 send an email: kevinenicky@gmail.com}
 Copyright (c) {2018} **{Kevine Musoni}**
