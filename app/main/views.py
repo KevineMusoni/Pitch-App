@@ -14,7 +14,7 @@ def index():
 @main.route('/pitch')
 def pitch():
     title ="PITCH- Share your pitch..."
-    return render_template('pitch.html')
+    return render_template('pitch/pitch.html')
 
 
 @main.route('/user/<uname>')
