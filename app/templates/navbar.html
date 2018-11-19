@@ -12,7 +12,7 @@
             <strong><a class="navbar-brand" href="/"> PITCH APP </a></strong>
             <ul class="nav navbar-nav">
                 <li><a href="/">HOME</a></li>
-                <li><a href="/"> PITCH</a></li>
+                <li><a href="{{url_for('main.pitch')}}"> PITCH</a></li>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_authenticated %}
                 <li style="color:white;padding:15px;">{{current_user.username}}</li>

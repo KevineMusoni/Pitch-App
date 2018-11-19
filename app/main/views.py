@@ -16,7 +16,6 @@ def pitch():
     title ="PITCH- Share your pitch..."
     return render_template('pitch/pitch.html')
 
-
 @main.route('/user/<uname>')
 def profile(uname):
     user = User.query.filter_by(username = uname).first()
