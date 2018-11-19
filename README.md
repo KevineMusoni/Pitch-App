@@ -20,9 +20,10 @@ pip3 install -r requirements.txt
 * View pitch posted
 
 ## Behavior Driven Development
-| input              | output           |
-|---------------     |---------------   |
-| Login/sign up      | Create pitch page|
+| input              | output                     |
+|---------------     |---------------             |
+| Login/sign up      | Create pitch page          |
+| view pitch         | upvote/downvote and comment|
 
 ## Technologies Used
 * Python3.6
