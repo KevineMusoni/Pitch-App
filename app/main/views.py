@@ -1,4 +1,4 @@
-from flask import render_template,url_for,abort
+from flask import render_template,url_for,abort,request,redirect
 from . import main
 from app import create_app
 from ..models import User
@@ -17,7 +17,6 @@ def pitch():
     return render_template('pitch/pitch.html')
 
     # like and dislike functionality
-    
 
 @main.route('/user/<uname>')
 def profile(uname):
