@@ -15,7 +15,10 @@ def index():
 def pitch():
     title ="PITCH- Share your pitch..."
     return render_template('pitch/pitch.html')
+
+    # like and dislike functionality
     
+
 @main.route('/user/<uname>')
 def profile(uname):
     user = User.query.filter_by(username = uname).first()
