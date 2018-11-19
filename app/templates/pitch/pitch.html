@@ -1,19 +1,31 @@
 {% extends 'base.html'%}
-
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+{% endblock %}
 {% block content %}
 <div class="container">
     <h1>Midea Pitch</h1>
-    <div class="row">
+    <div class="row1">
         <p>Always target the righ beat</p>
         <p class="col">{{numberOfLikes}}</p>
         <button class="col btn btn-success" (click)="likeButtonClick()">Like</button>
         <button class="col btn btn-danger" (click)="dislikeButtonClick()">Dislike</button>
-    </div>
-        <div class="row">
             <p>Target specific writers, not publications</p>
             <p class="col">{{numberOfLikes}}</p>
             <button class="col btn btn-success" (click)="likeButtonClick()">Like</button>
             <button class="col btn btn-danger" (click)="dislikeButtonClick()">Dislike</button>
         </div>
+    <div class="row2">
+        <h1>Job promotion Pitch</h1>
+        <p>Negotiate a Lateral Move Salary</p>
+        <p class="col">{{numberOfLikes}}</p>
+        <button class="col btn btn-success" (click)="likeButtonClick()">Like</button>
+        <button class="col btn btn-danger" (click)="dislikeButtonClick()">Dislike</button>
+        <p>Write a Letter to a Company Requesting Job Responsibilities</p>
+        <p class="col">{{numberOfLikes}}</p>
+        <button class="col btn btn-success" (click)="likeButtonClick()">Like</button>
+        <button class="col btn btn-danger" (click)="dislikeButtonClick()">Dislike</button>
+    </div>
 </div>
 {% endblock %}
