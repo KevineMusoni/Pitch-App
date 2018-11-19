@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <p class="col">{{numberOfLikes}}</p>
+        <button class="col btn btn-success" (click)="likeButtonClick()">Like</button>
+        <button class="col btn btn-danger" (click)="dislikeButtonClick()">Dislike</button>
+    </div>
+</div>
+{% endblock %}

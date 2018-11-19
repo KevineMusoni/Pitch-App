@@ -11,6 +11,12 @@ def index():
     title = 'Home - Welcome to Pitch App'
     return render_template('index.html')
 
+@main.route('/pitch')
+def pitch():
+    title ="PITCH- Share your pitch..."
+    return render_template('pitch.html')
+
+
 @main.route('/user/<uname>')
 def profile(uname):
     user = User.query.filter_by(username = uname).first()
