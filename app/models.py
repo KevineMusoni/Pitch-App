@@ -47,3 +47,11 @@ class Role(db.Model):
 
     def __repr__(self):
         return f'User {self.name}'
+
+# class BlogPost(db.Model):
+#     id = db.Column(db.Integer,primary_key=True)
+#     likes = db.Column(db.Integer,default=0)
+#     # post = TextField()
+
+#     def __repr__(self):
+#         return f'User {self.name}'

@@ -54,7 +54,13 @@ color: white;
 }
 .row2{
     float: right;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
 }
 .row1{
     float: left;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
 }
