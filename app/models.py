@@ -2,6 +2,7 @@ from . import db
 from werkzeug.security import generate_password_hash,check_password_hash
 from . import login_manager
 from flask_login import UserMixin
+# from datetime import datetime
 # user class
 class User(UserMixin,db.Model):
     __tablename__ = 'users'
@@ -48,10 +49,10 @@ class Role(db.Model):
     def __repr__(self):
         return f'User {self.name}'
 
-# class BlogPost(db.Model):
-#     id = db.Column(db.Integer,primary_key=True)
-#     likes = db.Column(db.Integer,default=0)
-#     # post = TextField()
-
-#     def __repr__(self):
-#         return f'User {self.name}'
+# class Pitch(db.Model):
+#     __tablename__ = 'pitches'
+#     id = db.Column(db.Integer,primary_key = True)
+#     posted = db.Column(db.DateTime,default=datetime.utcnow)
+#     user_id = db.Column(db.Integer,db.ForeignKey("users.id"))
+#     likes = db.Column(db.Integer)
+#     dislikes = db.Column(db.Integer)
