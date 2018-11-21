@@ -13,6 +13,6 @@ class UpdateProfile(FlaskForm):
 #     category = SelectField('Category', choices = [('pickup lines', 'Pickup lines'),('interview','Interview'), ('product','Product'),('promotion','Promotion')], validators = [Required()])
 #     submit = SubmitField('Post')
 
-# class CommentForm(FlaskForm):
-#     text = TextAreaField('Leave a Comment',validators = [Required()])
-#     submit = SubmitField('Add Comment')
+class CommentForm(FlaskForm):
+    text = TextAreaField('Leave a comment:',validators=[Required()])
+    submit = SubmitField('Submit')
